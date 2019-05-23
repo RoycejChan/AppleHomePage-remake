@@ -1,0 +1,564 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif, Verdana;
+    font-size:100%;
+}
+
+body, html {
+    background: white;
+}
+
+button, ul, a {
+    background: none;
+    border:none;
+    list-style: none;
+    text-decoration:none;
+    color:black;
+}
+
+img {
+    width:60%;
+    height:100%;
+    overflow:none;
+}
+
+/*      NAV BAR     */
+
+.navBar {
+    background:#333333;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height:6.2vh;
+    position:fixed;
+    width:100vw;
+    max-height: 6.3vh;
+}
+
+.navItems {
+    display: flex;
+    justify-content: space-around;
+    width:70vw;
+    font-size: 0.875em;
+}
+
+.navItems li,a {
+    color:white;
+    padding:0px 10px;
+}
+
+/*  IPHONE XR PRICE */
+
+.newPhonePrice {
+    background:#FAFAFA;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height:34vh;
+    line-height: 4vh;
+    margin-bottom:10px;
+    border-right: 10px solid white;
+    border-left: 10px solid white;
+}
+
+.newPhonePriceHeader {
+    font-size:1.875em;
+    margin-top:35px;
+    margin-bottom:10px;
+}
+
+.newPhonePriceDesc {
+    font-size:1.250em;
+    text-align: center;
+}
+
+.newPhonePriceLinkItems {
+    display:flex;
+    justify-content: center;
+}
+
+
+.newPhonePriceLinkItems button {
+    color: #0070C9;
+    font-size:1.3em;
+}
+
+/*  IPHONE XR DESC/PIC   */
+
+.newPhoneContainer {
+    background:#FAFAFA;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    height:80vh;
+    border-right: 10px solid white;
+    border-left: 10px solid white
+}
+
+.newPhoneHeader {
+    font-size:1.875em;
+    margin-top:35px;
+    margin-bottom:10px;
+}
+
+.newPhoneDesc {
+    font-size:1.250em;
+    text-align: center;
+}
+
+.newPhoneButtons {
+    display: flex;
+    text-align: center;
+}
+
+.newPhoneButtonLinks button {
+    color: #0070C9;
+    font-size:1.2em;
+    margin-top:15px;
+}
+
+.XRimg {
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    margin-top:1px;
+}
+
+/* IPHONE Xs */
+
+.IosXsContainer {
+    background:#FAFAFA;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    height:85vh;
+    margin-top:10px;
+    border-right: 10px solid white;
+    border-left: 10px solid white;
+}
+
+.IosXsHeader {
+    font-size:1.875em;
+    margin-top:35px;
+    margin-bottom:10px;
+}
+
+.IosXsDesc {
+    font-size:1.250em;
+    text-align: center;
+}
+
+.IosXsButtons {
+    display: flex;
+    text-align: center;
+}
+
+.IosXsButtonLinks button {
+    color: #0070C9;
+    font-size:1.2em;
+    margin-top:15px;
+}
+
+.IosXsimg {
+    display:flex;
+    align-content: center;
+    justify-content: center;
+}
+
+/*  APPLE WATCH */
+
+.AWatchContainer {
+    background:#FAFAFA;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    height:78vh;
+    margin-top:10px;
+    border-right: 10px solid white;
+    border-left: 10px solid white
+}
+
+.AWatchHeader {
+    display: flex;
+    font-size:1.875em;
+    margin-bottom:10px;
+    margin-top:50px;
+    letter-spacing: 5px;
+}
+
+.AWatchHeader img {
+    margin-right:20px;
+}
+
+.AWatchDesc {
+    font-size:1.250em;
+    text-align: center;
+}
+
+.AWatchButtons {
+    display: flex;
+    text-align: center;
+}
+
+.AWatchButtonLinks button {
+    color: #0070C9;
+    font-size:1.2em;
+    margin-top:15px;
+}
+
+.AWatchimg {
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    margin-left:30px;
+}
+
+.series4 {
+    font-size:1.3em;
+    color:red;
+    letter-spacing: 4px;
+}
+
+/* 1st row 1st column */
+
+.one-row-container {
+    margin-top:10px;
+    display: flex;
+}
+
+.one-column-row {
+    background:#FAFAFA;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    height:75vh;
+    width:50vw;
+    border-right: 10px solid white;
+    border-left: 10px solid white;
+}
+
+.IPadHeader {
+    font-size:1.7em;
+    margin-top:35px;
+    margin-bottom:10px;
+}
+
+.IPadDesc {
+    font-size:1.150em;
+    text-align: center;
+}
+
+.IPadButtons {
+    display: flex;
+    text-align: center;
+}
+
+.IPadButtonLinks button {
+    color: #0070C9;
+    font-size:1.1em;
+    margin-top:15px;
+}
+
+.IPadimg {
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    margin-left:30px;
+}
+
+/* 1st row 2nc column */
+
+
+.two-column-row {
+    background:#FAFAFA;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    height:75vh;
+    width:50vw;
+    border-right: 10px solid white;
+}
+
+.MacBookHeader {
+    font-size:1.7em;
+    margin-top:35px;
+    margin-bottom:10px;
+}
+
+.MacBookDesc {
+    font-size:1.150em;
+    text-align: center;
+}
+
+.MacBookButtons {
+    display: flex;
+    text-align: center;
+}
+
+.MacBookButtonLinks button {
+    color: #0070C9;
+    font-size:1.1em;
+    margin-top:15px;
+}
+
+.MacBookimg {
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    margin-top:50px;
+}
+
+
+
+/* 2nd row 1st column */
+
+.two-row-container {
+    margin-top:10px;
+    display: flex;
+}
+
+.one-column-row2 {
+    background:#FAFAFA;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    height:75vh;
+    width:50vw;
+    border-right: 10px solid white;
+}
+
+.AppleCardHeader {
+    font-size:1.7em;
+    margin-top:35px;
+    margin-bottom:10px;
+}
+
+.AppleCardDesc {
+    font-size:1.150em;
+    text-align: center;
+}
+
+.AppleCardButtons {
+    display: flex;
+    text-align: center;
+}
+
+.AppleCardButtonLinks button {
+    color: #0070C9;
+    font-size:1.1em;
+    margin-top:15px;
+}
+
+.AppleCardimg {
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    margin-left:20px;
+}
+
+/* 2nd row 2nd column */
+
+
+.two-column-row2 {
+    background: black;;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    height:75vh;
+    width:50vw;
+    color:white;
+    border-right: 10px solid white
+}
+
+.AppleTVHeader {
+    font-size:1.7em;
+    margin-top:35px;
+    margin-bottom:10px;
+}
+
+.AppleTVDesc {
+    font-size:1.150em;
+    text-align: center;
+}
+
+.AppleTVButtons {
+    display: flex;
+    text-align: center;
+}
+
+.AppleTVButtonLinks button {
+    color:white;
+    font-size:1.1em;
+    margin-top:15px;
+}
+
+.AppleTVimg {
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    margin-right:20px;
+}
+
+/* 3rd row 1st column */
+
+.three-row-container {
+    margin-top:20px;
+    display: flex;
+    margin-bottom:20px;
+}
+
+.one-column-row3 {
+    background:#FC355A;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    height:75vh;
+    width:50vw;
+    border-right: 10px solid white;
+    border-left: 10px solid white;
+}
+
+.AppleNewsHeader {
+    font-size:1.7em;
+    margin-top:35px;
+    margin-bottom:10px;
+    color:white;
+}
+
+.AppleNewsDesc {
+    font-size:1.150em;
+    text-align: center;
+    color:white;
+}
+
+.AppleNewsButtons {
+    display: flex;
+    text-align: center;
+}
+
+.AppleNewsButtonLinks button {
+    color: white;
+    font-size:1.1em;
+    margin-top:15px;
+}
+
+.AppleNewsimg {
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    margin-top:40px;
+}
+
+/* 3nd row 2nd column */
+
+
+.two-column-row3 {
+    background:#FAFAFA;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    height:75vh;
+    width:50vw;
+    color:black;
+    border-right: 10px solid white
+}
+
+.AccessibilityHeader {
+    font-size:1.7em;
+    margin-top:15px;
+    text-align: center;
+}
+
+.AccessibilityDesc {
+    font-size:1.150em;
+    text-align: center;
+}
+
+.AccessibilityButtons {
+    display: flex;
+    text-align: center;
+}
+
+.AccessibilityButtonLinks button {
+    color:#0070C9;
+    font-size:1.1em;
+    margin-top:15px;
+}
+
+.Accessibilityimg {
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    margin-right:70px;
+}
+
+
+            /*      FOOTER      */
+
+
+.footer-column-one a, .footer-column-two a,.footer-column-three a, .footer-column-four a, .footer-column-five a, .footer-footer-links A {
+    color:#555555;
+}
+
+.footerLinks h6{
+    color: #333333;
+}
+
+.FooterDesc {
+    color: #888888;
+    margin-bottom:2vh;
+}
+
+.footerContainer {
+    background:#FAFAFA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9em;
+    border-left: 10px solid white;
+    border-right:10px solid white;
+}
+
+.footerContentContainer {
+    display: flex;
+    flex-direction: column;
+    width:60vw;
+}
+
+.FooterDesc {
+    text-align: center;
+    margin-top:30px;
+}
+   
+.footerLinks {
+    display: flex;
+    line-height:4vh;
+    align-items: space-around;
+    justify-content: space-around;
+    width:70vw;
+}
+
+.footer-footer-copyright {
+    margin-right:0.5vw;
+}
+
+.footer-footer-licenses {
+    display: flex;
+    padding:2vh;
+}
+
+.footer-footer-links ul {
+    display: flex;
+}
+@media only screen and (max-width:850px) {
+    body {
+        font-size:79%;
+    }
+
+    img {
+        width:75%;
+    }
+}
